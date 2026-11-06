@@ -23,7 +23,7 @@ bot::Rosales::Rosaceae::Prunus    porteiro "Prunus — família?"   (espera Rosa
   └ foto, origem                    esperam ↑
 ```
 
-As tags do Botânica são postas por `~/deving/facul/botanica/tags_trava.py`.
+Pra montar isso num deck existente, um script via AnkiConnect põe `trava::porteiro` nos cards de ordem/família/gênero e a subtag do gênero nos de foto e origem.
 
 ## Uso
 
@@ -50,7 +50,7 @@ python3 simula.py      # o que ele faria na coleção real (Anki aberto + AnkiCo
 | `regras.py` | lógica pura (sem Anki) |
 | `__init__.py` | hooks, menus, grava na coleção |
 | `config.json` / `config.md` | config padrão e a ajuda que aparece na GUI |
-| `config.local.json` | config da minha máquina (fora do git e do pacote) |
+| `config.local.json` | config local opcional, usada pelo `instala.sh` (fora do git e do pacote) |
 
 ---
 
