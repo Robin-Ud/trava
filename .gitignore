@@ -1,0 +1,3 @@
+config.local.json
+*.ankiaddon
+__pycache__/
